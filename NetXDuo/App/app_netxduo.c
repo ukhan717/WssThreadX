@@ -82,7 +82,7 @@ UINT MX_NetXDuo_Init(VOID *memory_ptr)
 
   /* USER CODE BEGIN MX_NetXDuo_Init */
 #if (USE_MEMORY_POOL_ALLOCATION == 1)  
-   printf("Nx_TCP_Echo_Server application started..\n");
+   printf("WssThreadX application started..\n");
   
   /* Allocate the memory for packet_pool.  */
   if (tx_byte_allocate(byte_pool, (VOID **) &pointer,  NX_PACKET_POOL_SIZE, TX_NO_WAIT) != TX_SUCCESS)

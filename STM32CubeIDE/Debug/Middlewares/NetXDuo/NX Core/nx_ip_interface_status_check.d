@@ -1,5 +1,5 @@
 Middlewares/NetXDuo/NX Core/nx_ip_interface_status_check.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/src/nx_ip_interface_status_check.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/src/nx_ip_interface_status_check.c \
  ../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \

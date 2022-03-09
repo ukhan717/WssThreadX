@@ -1,5 +1,5 @@
 Middlewares/NetXDuo/NX Core/nxd_ipv6_default_router_add_internal.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/src/nxd_ipv6_default_router_add_internal.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/src/nxd_ipv6_default_router_add_internal.c \
  ../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \

@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32u5xx.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Core/Src/system_stm32u5xx.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Core/Src/system_stm32u5xx.c \
  ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u585xx.h \
  ../../Drivers/CMSIS/Include/core_cm33.h \

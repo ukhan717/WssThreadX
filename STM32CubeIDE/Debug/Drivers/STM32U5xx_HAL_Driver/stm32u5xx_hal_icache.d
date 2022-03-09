@@ -1,5 +1,5 @@
 Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \

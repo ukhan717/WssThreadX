@@ -1,5 +1,5 @@
 Application/User/Core/stm32u5xx_hal_msp.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Core/Src/stm32u5xx_hal_msp.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Core/Src/stm32u5xx_hal_msp.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \

@@ -1,5 +1,5 @@
 Middlewares/NetXDuo/NX Core/nxd_tcp_client_socket_connect.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/src/nxd_tcp_client_socket_connect.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/src/nxd_tcp_client_socket_connect.c \
  ../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \

@@ -1,6 +1,6 @@
 Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.c \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.h \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.h \
  ../../Core/Inc/b_u585i_iot02a_conf.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Core/Inc/stm32u5xx_hal_conf.h \
@@ -33,9 +33,9 @@ Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h
 
-C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.h:
+C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.h:
 
 ../../Core/Inc/b_u585i_iot02a_conf.h:
 
@@ -101,4 +101,4 @@ C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Drivers/BSP/B-U
 
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
 
-C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h:
+C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h:

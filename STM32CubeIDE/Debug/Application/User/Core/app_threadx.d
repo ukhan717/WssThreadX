@@ -1,5 +1,5 @@
 Application/User/Core/app_threadx.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Core/Src/app_threadx.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Core/Src/app_threadx.c \
  ../../Core/Inc/app_threadx.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \

@@ -1,5 +1,5 @@
 Middlewares/NetXDuo/Addons DHCP Client/nxd_dhcp_client.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/addons/dhcp/nxd_dhcp_client.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/addons/dhcp/nxd_dhcp_client.c \
  ../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
@@ -11,7 +11,7 @@ Middlewares/NetXDuo/Addons DHCP Client/nxd_dhcp_client.o: \
  ../../Middlewares/ST/netxduo/common/inc/nx_ip.h \
  ../../Middlewares/ST/netxduo/common/inc/nx_ipv4.h \
  ../../Middlewares/ST/netxduo/common/inc/nx_arp.h \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/addons/dhcp/nxd_dhcp_client.h \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/addons/dhcp/nxd_dhcp_client.h \
  ../../Middlewares/ST/netxduo/common/inc/nx_udp.h \
  ../../Middlewares/ST/threadx/common/inc/tx_timer.h
 
@@ -37,7 +37,7 @@ Middlewares/NetXDuo/Addons DHCP Client/nxd_dhcp_client.o: \
 
 ../../Middlewares/ST/netxduo/common/inc/nx_arp.h:
 
-C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/addons/dhcp/nxd_dhcp_client.h:
+C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/addons/dhcp/nxd_dhcp_client.h:
 
 ../../Middlewares/ST/netxduo/common/inc/nx_udp.h:
 

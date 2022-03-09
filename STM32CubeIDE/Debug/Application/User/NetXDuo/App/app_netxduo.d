@@ -1,6 +1,6 @@
 Application/User/NetXDuo/App/app_netxduo.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/NetXDuo/App/app_netxduo.c \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/NetXDuo/App/app_netxduo.h \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/NetXDuo/App/app_netxduo.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/NetXDuo/App/app_netxduo.h \
  ../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
@@ -55,7 +55,7 @@ Application/User/NetXDuo/App/app_netxduo.o: \
  ../../AZURE_RTOS/App/app_azure_rtos_config.h \
  ../../Core/Inc/app_threadx.h ../../NetXDuo/App/app_netxduo.h
 
-C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/NetXDuo/App/app_netxduo.h:
+C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/NetXDuo/App/app_netxduo.h:
 
 ../../Middlewares/ST/netxduo/common/inc/nx_api.h:
 

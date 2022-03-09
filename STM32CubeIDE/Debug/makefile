@@ -45,34 +45,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Nx_TCP_Echo_Server
+BUILD_ARTIFACT_NAME := WssThreadX
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-Nx_TCP_Echo_Server.elf \
+WssThreadX.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-Nx_TCP_Echo_Server.list \
+WssThreadX.list \
 
 OBJCOPY_BIN += \
-Nx_TCP_Echo_Server.bin \
+WssThreadX.bin \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: Nx_TCP_Echo_Server.elf secondary-outputs
+main-build: WssThreadX.elf secondary-outputs
 
 # Tool invocations
-Nx_TCP_Echo_Server.elf: $(OBJS) $(USER_OBJS) C:\WorkSpace\Documentation\Stm32U5\SecWkspace\Nx_TCP_Echo_Server\STM32CubeIDE\STM32U585AIIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Nx_TCP_Echo_Server.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\WorkSpace\Documentation\Stm32U5\SecWkspace\Nx_TCP_Echo_Server\STM32CubeIDE\STM32U585AIIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Nx_TCP_Echo_Server.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+WssThreadX.elf: $(OBJS) $(USER_OBJS) C:\WorkSpace\Documentation\Stm32U5\WebsocketServer\WssThreadX\STM32CubeIDE\STM32U585AIIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "WssThreadX.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\WorkSpace\Documentation\Stm32U5\WebsocketServer\WssThreadX\STM32CubeIDE\STM32U585AIIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="WssThreadX.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -81,19 +81,19 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Nx_TCP_Echo_Server.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Nx_TCP_Echo_Server.list"
+WssThreadX.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "WssThreadX.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Nx_TCP_Echo_Server.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "Nx_TCP_Echo_Server.bin"
+WssThreadX.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "WssThreadX.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Nx_TCP_Echo_Server.bin Nx_TCP_Echo_Server.elf Nx_TCP_Echo_Server.list default.size.stdout
+	-$(RM) WssThreadX.bin WssThreadX.elf WssThreadX.list default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)

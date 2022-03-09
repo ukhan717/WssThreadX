@@ -1,5 +1,5 @@
 Middlewares/NetXDuo/NX Core/nxd_udp_socket_source_send.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/src/nxd_udp_socket_source_send.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/src/nxd_udp_socket_source_send.c \
  ../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \

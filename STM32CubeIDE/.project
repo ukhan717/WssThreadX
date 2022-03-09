@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Nx_TCP_Echo_Server</name>
+	<name>WssThreadX</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -35,9 +35,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>Nx_TCP_Echo_Server.ioc</name>
+			<name>WssThreadX.ioc</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Nx_TCP_Echo_Server.ioc</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/WssThreadX.ioc</locationURI>
 		</link>
 		<link>
 			<name>Drivers/CMSIS/system_stm32u5xx.c</name>

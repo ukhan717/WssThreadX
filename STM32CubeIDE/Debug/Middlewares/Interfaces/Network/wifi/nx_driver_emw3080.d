@@ -1,5 +1,5 @@
 Middlewares/Interfaces/Network/wifi/nx_driver_emw3080.o: \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c \
  ../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
@@ -10,9 +10,9 @@ Middlewares/Interfaces/Network/wifi/nx_driver_emw3080.o: \
  ../../Drivers/BSP/Components/mx_wifi/mx_wifi.h \
  ../../Core/Inc/mx_wifi_conf.h \
  ../../NetXDuo/Target/mx_wifi_azure_rtos_conf.h \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h \
- C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.c
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h \
+ C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.c
 
 ../../Middlewares/ST/netxduo/common/inc/nx_api.h:
 
@@ -34,8 +34,8 @@ Middlewares/Interfaces/Network/wifi/nx_driver_emw3080.o: \
 
 ../../NetXDuo/Target/mx_wifi_azure_rtos_conf.h:
 
-C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h:
+C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h:
 
-C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h:
+C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h:
 
-C:/WorkSpace/Documentation/Stm32U5/SecWkspace/Nx_TCP_Echo_Server/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.c:
+C:/WorkSpace/Documentation/Stm32U5/WebsocketServer/WssThreadX/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.c:
