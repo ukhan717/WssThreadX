@@ -1,0 +1,14 @@
+BufPrint.c:49:1:BufPrint_defaultFlush	16	static
+BufPrint.c:62:1:basnprintf	56	static
+BufPrint.c:82:1:basprintf	60	static
+BufPrint.c:176:1:BufPrint_putc	16	static
+BufPrint.c:184:1:BufPrint_fmtLongLong	32	static
+BufPrint.c:207:1:BufPrint_constructor	24	static
+BufPrint.c:215:1:BufPrint_constructor2	24	static
+BufPrint.c:234:1:BufPrint_write	32	static
+BufPrint.c:273:1:BufPrint_b64Encode	32	static
+BufPrint.c:322:1:BufPrint_b64urlEncode	32	static
+BufPrint.c:372:1:BufPrint_jsonString	24	static
+BufPrint.c:482:1:BufPrint_vprintf	280	static
+BufPrint.c:1089:1:BufPrint_printf	28	static
+BufPrint.c:1100:1:BufPrint_flush	24	static

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "sharkssl.h": "c",
+        "targconfig.h": "c",
+        "winsock2.h": "c",
+        "sharkssl_opts.h": "c",
+        "nx_api.h": "c",
+        "sharksslex.h": "c",
+        "mslib.h": "c",
+        "maintask.h": "c"
+    }
+}

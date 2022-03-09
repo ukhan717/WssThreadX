@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+tx_thread_system_suspend.c:83:7:_tx_thread_system_suspend	112	static,ignoring_inline_asm

@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxde_tcp_client_socket_connect.c:85:7:_nxde_tcp_client_socket_connect	32	static

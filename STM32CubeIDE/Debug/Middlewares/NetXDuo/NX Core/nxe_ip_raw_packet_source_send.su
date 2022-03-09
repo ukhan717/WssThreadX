@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_ip_raw_packet_source_send.c:84:7:_nxe_ip_raw_packet_source_send	40	static

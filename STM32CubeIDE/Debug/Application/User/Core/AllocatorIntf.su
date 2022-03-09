@@ -1,0 +1,5 @@
+AllocatorIntf.c:44:1:AllocatorIntf_defaultMalloc	16	static
+AllocatorIntf.c:52:1:AllocatorIntf_defaultRealloc	24	static
+AllocatorIntf.c:60:1:AllocatorIntf_defaultFree	16	static
+AllocatorIntf.c:68:1:AllocatorIntf_getDefault	4	static
+AllocatorIntf.c:81:1:baStrdup2	24	static

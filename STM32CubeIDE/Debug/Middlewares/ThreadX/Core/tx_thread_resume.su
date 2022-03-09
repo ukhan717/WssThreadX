@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+tx_thread_resume.c:75:7:_tx_thread_resume	48	static,ignoring_inline_asm

@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_ip_info_get.c:95:7:_nxe_ip_info_get	64	static

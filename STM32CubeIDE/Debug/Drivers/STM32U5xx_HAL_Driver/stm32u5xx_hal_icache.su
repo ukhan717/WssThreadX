@@ -1,0 +1,17 @@
+stm32u5xx_hal_icache.c:161:19:HAL_ICACHE_ConfigAssociativityMode	24	static
+stm32u5xx_hal_icache.c:185:19:HAL_ICACHE_DeInit	16	static
+stm32u5xx_hal_icache.c:218:19:HAL_ICACHE_Enable	4	static
+stm32u5xx_hal_icache.c:231:19:HAL_ICACHE_Disable	16	static
+stm32u5xx_hal_icache.c:268:19:HAL_ICACHE_Invalidate	16	static
+stm32u5xx_hal_icache.c:299:19:HAL_ICACHE_Invalidate_IT	16	static
+stm32u5xx_hal_icache.c:328:19:HAL_ICACHE_WaitForInvalidateComplete	16	static
+stm32u5xx_hal_icache.c:370:19:HAL_ICACHE_Monitor_Start	16	static
+stm32u5xx_hal_icache.c:390:19:HAL_ICACHE_Monitor_Stop	16	static
+stm32u5xx_hal_icache.c:409:19:HAL_ICACHE_Monitor_Reset	16	static
+stm32u5xx_hal_icache.c:426:10:HAL_ICACHE_Monitor_GetHitValue	4	static
+stm32u5xx_hal_icache.c:436:10:HAL_ICACHE_Monitor_GetMissValue	4	static
+stm32u5xx_hal_icache.c:466:6:HAL_ICACHE_IRQHandler	16	static
+stm32u5xx_hal_icache.c:502:13:HAL_ICACHE_InvalidateCompleteCallback	4	static
+stm32u5xx_hal_icache.c:512:13:HAL_ICACHE_ErrorCallback	4	static
+stm32u5xx_hal_icache.c:545:20:HAL_ICACHE_EnableRemapRegion	32	static
+stm32u5xx_hal_icache.c:600:20:HAL_ICACHE_DisableRemapRegion	24	static

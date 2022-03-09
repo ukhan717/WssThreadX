@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nx_tcp_receive_cleanup.c:82:7:_nx_tcp_receive_cleanup	56	static,ignoring_inline_asm

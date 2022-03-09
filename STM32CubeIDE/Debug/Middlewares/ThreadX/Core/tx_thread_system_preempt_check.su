@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+tx_thread_system_preempt_check.c:73:7:_tx_thread_system_preempt_check	32	static,ignoring_inline_asm

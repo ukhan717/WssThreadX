@@ -1,0 +1,6 @@
+BaAtoi.c:46:1:U32_negate	16	static
+BaAtoi.c:53:1:U32_atoi2	24	static
+BaAtoi.c:77:1:U32_atoi	16	static
+BaAtoi.c:84:1:U32_hextoi	32	static
+BaAtoi.c:103:1:U64_atoll2	56	static
+BaAtoi.c:122:1:U64_atoll	16	static

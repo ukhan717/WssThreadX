@@ -1,0 +1,11 @@
+seNetX.c:48:6:seNetX_init	16	static
+seNetX.c:58:13:time2Reboot	16	static
+seNetX.c:67:12:txTime2Ticks	24	static
+seNetX.c:81:5:se_accept	72	static
+seNetX.c:138:5:se_bind	56	static
+seNetX.c:165:5:se_connect	80	static
+seNetX.c:210:6:se_close	24	static
+seNetX.c:250:5:se_send	48	static
+seNetX.c:270:5:se_recv	56	static
+seNetX.c:318:5:se_sockValid	16	static
+seNetX.c:324:6:seNetX_getSockName	24	static

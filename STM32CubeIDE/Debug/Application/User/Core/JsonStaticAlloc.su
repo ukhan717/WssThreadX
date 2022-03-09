@@ -1,0 +1,8 @@
+JsonStaticAlloc.c:53:1:doNothingOnFree	16	static
+JsonStaticAlloc.c:73:1:JParserAlloc_realloc	24	static
+JsonStaticAlloc.c:85:1:JParserAlloc_malloc	16	static
+JsonStaticAlloc.c:91:1:JParserAlloc_constructor	16	static
+JsonStaticAlloc.c:112:1:vAlloc_malloc	16	static
+JsonStaticAlloc.c:129:1:VAlloc_constructor	16	static
+JsonStaticAlloc.c:153:1:DAlloc_malloc	24	static
+JsonStaticAlloc.c:172:1:DAlloc_constructor	16	static

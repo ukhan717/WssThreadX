@@ -1,0 +1,5 @@
+app_netxduo.c:74:6:MX_NetXDuo_Init	56	static
+app_netxduo.c:194:13:App_Main_Thread_Entry	32	static
+app_netxduo.c:245:13:tcp_listen_callback	16	static
+app_netxduo.c:256:13:ip_address_change_notify_callback	16	static
+app_netxduo.c:266:13:App_TCP_Thread_Entry	552	static

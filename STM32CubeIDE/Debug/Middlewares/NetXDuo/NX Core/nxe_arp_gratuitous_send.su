@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_arp_gratuitous_send.c:80:7:_nxe_arp_gratuitous_send	24	static

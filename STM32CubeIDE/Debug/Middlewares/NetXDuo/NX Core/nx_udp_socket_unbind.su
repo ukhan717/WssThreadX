@@ -1,0 +1,1 @@
+nx_udp_socket_unbind.c:79:7:_nx_udp_socket_unbind	80	static,ignoring_inline_asm

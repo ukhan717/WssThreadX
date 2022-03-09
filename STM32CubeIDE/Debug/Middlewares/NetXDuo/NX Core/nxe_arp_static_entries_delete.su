@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_arp_static_entries_delete.c:78:7:_nxe_arp_static_entries_delete	24	static

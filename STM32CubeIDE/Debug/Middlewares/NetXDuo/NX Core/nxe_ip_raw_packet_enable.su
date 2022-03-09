@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_ip_raw_packet_enable.c:75:7:_nxe_ip_raw_packet_enable	24	static

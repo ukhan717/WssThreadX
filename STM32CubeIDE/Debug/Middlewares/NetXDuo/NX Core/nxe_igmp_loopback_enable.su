@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_igmp_loopback_enable.c:78:7:_nxe_igmp_loopback_enable	24	static

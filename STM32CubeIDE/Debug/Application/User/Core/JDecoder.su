@@ -1,0 +1,7 @@
+JDecoder.c:44:1:JDecoder_setStatus	16	static
+JDecoder.c:52:1:JDecoder_buildValCB	56	static
+JDecoder.c:206:1:JDecoder_expandBuf	16	static
+JDecoder.c:214:1:JDecoder_link	32	static
+JDecoder.c:230:1:JDecoder_vget	40	static
+JDecoder.c:315:1:JDecoder_get	28	static
+JDecoder.c:327:1:JDecoder_constructor	24	static

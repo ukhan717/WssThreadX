@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxde_tcp_socket_peer_info_get.c:81:7:_nxde_tcp_socket_peer_info_get	32	static

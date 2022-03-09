@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_icmp_enable.c:76:7:_nxe_icmp_enable	24	static

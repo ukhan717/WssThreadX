@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_tcp_socket_transmit_configure.c:87:7:_nxe_tcp_socket_transmit_configure	40	static

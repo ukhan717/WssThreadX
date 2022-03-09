@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_packet_copy.c:80:7:_nxe_packet_copy	32	static

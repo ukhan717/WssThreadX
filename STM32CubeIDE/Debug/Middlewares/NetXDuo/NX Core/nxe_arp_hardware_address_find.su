@@ -1,0 +1,2 @@
+tx_port.h:294:28:_get_ipsr	16	static,ignoring_inline_asm
+nxe_arp_hardware_address_find.c:81:7:_nxe_arp_hardware_address_find	32	static
