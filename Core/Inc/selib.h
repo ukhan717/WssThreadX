@@ -146,7 +146,7 @@
  #endif
  #endif
   
- void mainTask(NX_IP *ip_ptr, NX_TCP_SOCKET *socket_ptr, CHAR *name,
+ void mainTask(SeCtx* ctx, NX_IP *ip_ptr, NX_TCP_SOCKET *socket_ptr, CHAR *name,
 	        ULONG type_of_service, ULONG fragment, UINT time_to_live, ULONG window_size,
 	        VOID (*tcp_urgent_data_callback)(NX_TCP_SOCKET *socket_ptr),
 	        VOID (*tcp_disconnect_callback)(NX_TCP_SOCKET *socket_ptr),

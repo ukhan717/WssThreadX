@@ -265,59 +265,19 @@ static VOID ip_address_change_notify_callback(NX_IP *ip_instance, VOID *ptr)
 */
 static VOID App_TCP_Thread_Entry(ULONG thread_input)
 {
-  UINT ret;
-  UCHAR data_buffer[512];
-  
-  ULONG source_ip_address;
-  NX_PACKET *data_packet;
-  
-  UINT source_port;
-  ULONG bytes_read;
+//	UINT ret;
+//	UCHAR data_buffer[512];
+//
+//	ULONG source_ip_address;
+//	NX_PACKET *data_packet;
+//
+//	UINT source_port;
+//	ULONG bytes_read;
   
 //  seNetX_init(&IpInstance= , dns);
-
-  mainTask(&IpInstance, &TCPSocket, "TCP Server Socket", NX_IP_NORMAL, NX_FRAGMENT_OKAY,
+  mainTask(0, &IpInstance, &TCPSocket, "TCP Server Socket", NX_IP_NORMAL, NX_FRAGMENT_OKAY,
           NX_IP_TIME_TO_LIVE, WINDOW_SIZE, NX_NULL, NX_NULL);
-
-//  /* create the TCP socket */
-//  ret = seNetX_init(&IpInstance, &TCPSocket, "TCP Server Socket", NX_IP_NORMAL, NX_FRAGMENT_OKAY,
-//                             NX_IP_TIME_TO_LIVE, WINDOW_SIZE, NX_NULL, NX_NULL);
-//  if (ret)
-//  {
-//    Error_Handler();
-//  }
-  
-  /*
-  * listen to new client connections.
-  * the TCP_listen_callback will release the 'Semaphore' when a new connection is available
-  */
-//  ret = nx_tcp_server_socket_listen(&IpInstance, DEFAULT_PORT, &TCPSocket, MAX_TCP_CLIENTS, tcp_listen_callback);
-//
-//  if (ret)
-//  {
-//    Error_Handler();
-//  }
-//  else
-//  {
-//    printf("TCP Server listening on PORT %d ..\n", DEFAULT_PORT);
-//  }
-  
-  //TODO: UNDO THE COMMENTS
-//  if(tx_semaphore_get(&Semaphore, TX_WAIT_FOREVER) != TX_SUCCESS)
-//  {
-//    Error_Handler();
-//  }
-//  else
-//  {
-    /* accept the new client connection before starting data exchange */
-//    ret = nx_tcp_server_socket_accept(&TCPSocket, TX_WAIT_FOREVER); // _nxe_tcp_server_socket_accept(NX_TCP_SOCKET *socket_ptr, ULONG wait_option)
-//	int ret2 = 0; // TODO : Replace this with valid ret values
-	minorTask(0,&IpInstance, &TCPSocket, TX_WAIT_FOREVER);
-//    if (ret2)
-//    {
-//      Error_Handler();
-//    }
-//  }
+//  minorTask(0,&IpInstance, &TCPSocket, TX_WAIT_FOREVER);
 
 //  while(1)
 //  {
@@ -373,5 +333,6 @@ static VOID App_TCP_Thread_Entry(ULONG thread_input)
 //      BSP_LED_Toggle(LED_GREEN);
 //    }
 //  }
+
 }
 /* USER CODE END 1 */

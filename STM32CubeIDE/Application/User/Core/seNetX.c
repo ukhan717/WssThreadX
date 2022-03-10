@@ -82,19 +82,21 @@ int se_accept(NX_IP *ip_ptr,SOCKET** listenSock, U32 timeout, SOCKET** outSock)
 {
    ULONG waitOption;
    int status = 1,ns;
-   NX_TCP_SOCKET* msock = &(*listenSock)->nxSock;
+   //NX_TCP_SOCKET* msock = &(*listenSock)->nxSock;
+   NX_TCP_SOCKET* msock = ip_ptr->nx_ip_tcp_created_sockets_ptr;
    NX_TCP_SOCKET* newsock = &(*outSock)->nxSock;
    for(;;)
    {
       waitOption = INFINITE_TMO == timeout ?
          NX_WAIT_FOREVER : txTime2Ticks(timeout);
       //status = nx_tcp_server_socket_accept(msock, waitOption); // _nxe_tcp_server_socket_accept(NX_TCP_SOCKET *socket_ptr, ULONG wait_option) called from app_netxduo.
-      status = nx_tcp_server_socket_accept(ip_ptr, timeout);
+      status = nx_tcp_server_socket_accept(msock, timeout);
       if( ! status )
       {
          memset(*outSock,0, sizeof(SOCKET));
          status = nx_tcp_socket_create(
-		    msock->nx_tcp_socket_ip_ptr,
+//        	ip_ptr->nx_tcp_socket_ip_ptr,
+			msock->nx_tcp_socket_ip_ptr,
             newsock,
             "selib",
             NX_IP_NORMAL,
@@ -133,8 +135,7 @@ int se_accept(NX_IP *ip_ptr,SOCKET** listenSock, U32 timeout, SOCKET** outSock)
          return -1;
    }
 }
-
-
+NX_DNS client_dns;
 int se_bind(NX_IP *ip_ptr, NX_TCP_SOCKET *socket_ptr, CHAR *name,
         ULONG type_of_service, ULONG fragment, UINT time_to_live, ULONG window_size,
         VOID (*tcp_urgent_data_callback)(NX_TCP_SOCKET *socket_ptr),
@@ -146,11 +147,14 @@ int se_bind(NX_IP *ip_ptr, NX_TCP_SOCKET *socket_ptr, CHAR *name,
 							 NX_IP_TIME_TO_LIVE, 2048, NX_NULL, NX_NULL);
 //   if(nx_tcp_server_socket_listen(nxip, port, &sock->nxSock, 5, 0))
    UINT port = 80;
+   nxip = ip_ptr;
    if(nx_tcp_server_socket_listen(ip_ptr, port, socket_ptr, 5, 0))
    {
       return -3;
    }
-   printf("TCP Server listening on PORT %d ..\n", port);
+   printf("Server bound on PORT %d ..\n", port);
+   nx_dns_create(&client_dns, ip_ptr, "My DNS"); // nx_dns_create(NX_DNS *dns_ptr, NX_IP *ip_ptr, UCHAR *domain_name);
+   seNetX_init(ip_ptr, &client_dns);
    return 0;
 }
 
